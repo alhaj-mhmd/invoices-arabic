@@ -1,0 +1,21 @@
+for spatie permessions:
+php artisan migrate:fresh
+php artisan db:seed --class=PermissionTableSeeder
+php artisan db:seed --class=CreateAdminUserSeeder
+ php artisan serve
+
+
+====
+for notificaitons:
+
+php artisan notifications:table
+
+
+==== db
+quickitt_invoices_ar
+iDF~iqJEYJf7
+
+
+=== defualt admin user
+samir.gamal77@yahoo.com
+123456
